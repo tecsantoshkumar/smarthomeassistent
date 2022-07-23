@@ -1,0 +1,43 @@
+[
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"id15907146_wp_07953c514be9e8a3cde6e7d2a77f1cf7"},
+{"type":"table","name":"dht","database":"id15907146_wp_07953c514be9e8a3cde6e7d2a77f1cf7","data":
+[
+{"dhtid":"1","dhtf":"Temp","dhtv":"14"},
+{"dhtid":"2","dhtf":"Humidity","dhtv":"10"}
+]
+}
+,{"type":"table","name":"iot","database":"id15907146_wp_07953c514be9e8a3cde6e7d2a77f1cf7","data":
+[
+{"Load1":"L1","Status":"off","LId":"1"},
+{"Load1":"L2","Status":"off","LId":"2"},
+{"Load1":"L3","Status":"off","LId":"3"},
+{"Load1":"L4","Status":"off","LId":"4"},
+{"Load1":"L5","Status":"off","LId":"5"},
+{"Load1":"L6","Status":"off","LId":"6"},
+{"Load1":"L7","Status":"off","LId":"7"},
+{"Load1":"L8","Status":"off","LId":"8"},
+{"Load1":"L9","Status":"off","LId":"9"},
+{"Load1":"L10","Status":"off","LId":"10"},
+{"Load1":"L11","Status":"off","LId":"11"},
+{"Load1":"L12","Status":"off","LId":"12"},
+{"Load1":"L13","Status":"off","LId":"13"},
+{"Load1":"L14","Status":"off","LId":"14"},
+{"Load1":"L15","Status":"off","LId":"15"},
+{"Load1":"L16","Status":"off","LId":"16"},
+{"Load1":"L17","Status":"off","LId":"17"},
+{"Load1":"L18","Status":"off","LId":"18"}
+]
+}
+,{"type":"table","name":"SensorData","database":"id15907146_wp_07953c514be9e8a3cde6e7d2a77f1cf7","data":
+[
+
+]
+}
+,{"type":"table","name":"user","database":"id15907146_wp_07953c514be9e8a3cde6e7d2a77f1cf7","data":
+[
+{"user_id":"1","username":"smarthomeautomation","password":"4321","name":"Samat Home Automation"},
+{"user_id":"2","username":"sk4809656@gmail.com","password":"654321","name":"Samat Home Automation"}
+]
+}
+]

@@ -1,0 +1,302 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+h1
+{
+    font-size:3em;
+    text-align:Center;
+    color:#000;
+    font-weight:300;
+    font-family:sans-serif;
+}
+.main
+{
+    padding:6em 0 0 ;
+}
+.main-info
+{
+    width:100%;
+    margin:3em auto;
+    background:#32457c;
+    padding:2em;
+    border-radius:17px;
+}
+.weather-grids
+{
+    float:left;
+    width:33%;
+}
+.weather-grids.weather-mdl
+{
+    text-align:center;
+}
+.weather-grids:nth-child(3)
+{
+    text-align:right;
+}
+.weather-grids h3
+{
+    font-size:1.5em;
+    color:#fff;
+}
+.weather-grids h3.fri
+{
+    font-weight:900;
+    color:#FFD700;
+    margin-top:0.7em;
+}
+.weather-grids h2
+{
+    font-size:3em;
+    font-weight:300;
+    color:#fff;
+}
+.weather-grids h4
+{
+    font-size:1em;
+    color:#fff;
+}
+.clear
+{
+    clear : both;
+}
+.weather-bottom
+{
+    text-align:center;
+    margin-top:2em;
+}
+.weather-bottom ul li
+{
+    display:inline-block;
+    padding:1em 0;
+    float:left;
+    width:14.1%;
+}
+.weather-bottom ul li.bg
+{
+    background:#314277;
+}
+.weather-bottom h4
+{
+    font-size:1em;
+    color:#fff;
+    font-weight:100;
+}
+figure .icons
+{
+    margin:0.5em 0;
+}
+.weather-bottom h5
+{
+    font-size:1.2em;
+    color:#fff;
+    font-weight:600;
+}
+.weather-bottom h6
+{
+    font-size:1em;
+    color:#FFD700;
+    margin-top:0.5em;
+}
+
+@media(max-width:1440px)
+{
+    .main
+    {
+        padding:5em 0 0;
+    }
+}
+@media (max-width:1336px)
+{
+    .main-info
+    {
+        width:37%;
+    }
+}
+@media(max-width:1280px)
+{
+    .main-info
+    {
+        width:39%;
+    }
+}
+@media(max-width:1080px)
+{
+    .main-info
+    {
+        width:46%;
+    }
+}
+@media(max-width:1024px)
+{
+    .main-info
+    {
+        width:47%;
+    }
+}
+@media(max-width:900px)
+{
+    .main-info
+    {
+        width:50%;
+    }
+}
+@media(max-width:800px)
+{
+    .main
+    {
+        padding:4em 0 0;
+    }
+    .main-info
+    {
+        margin:4em auto;
+    }
+    h1
+    {
+        font-size:2.8em;
+    }
+    .main-info
+    {
+        width:58%;
+    }
+}
+@media(max-width:640px)
+{
+    h1 
+    {
+        font-size:2.6em;
+    }
+    .main-info
+    {
+        width:70%;
+        padding:1.5em;
+    }
+    .weather-grids h2
+    {
+        font-size:2.8em;
+    }
+}
+@media(max-width:480px)
+{
+    h1
+    {
+        font-size:2.2em;
+    }
+    .main-info
+    {
+        width:82%;
+        margin:3em auto;
+    }
+    .weather-grids h3
+    {
+        font-size:1.3em;
+    }
+    .weather-grids h2
+    {
+        font-size:2.5em;
+    }
+    .weather-grids h4
+    {
+        font-size:0.8em;
+    }
+    .weather-bottom h5
+    {
+        font-size:1.1em;
+    }
+    .weather-bottom h6
+    {
+        font-size:1.1em;
+    }
+    .main
+    {
+        padding:3em 0 0;
+    }
+}
+@media(max-width:414px)
+{
+    .main-info
+    {
+        padding:1.5em 1em;
+    }
+    .weather-bottom h4
+    {
+        font-size:0.9em
+    }
+    canvas#clear-day
+    {
+        width:60px;
+        height:60px;
+    }
+    .weather-bottom canvas
+    {
+        width:30px;
+        height:30px;
+    }
+    .weather-bottom
+    {
+        margin-top:1.5em;
+    }
+}
+@media(max-width:375px)
+{
+    h1 
+    {
+        font-size:1em;
+    }
+    .main
+    {
+        padding:2em 0 0;
+    }
+}
+@media(max-width:320px)
+{
+    h1
+    {
+        font-size:1.6em;
+    }
+    .main-info
+    {
+        width:82%;
+        margin:1.5em auto;
+        padding:1em;
+    }
+    .weather-grids h2
+    {
+        font-size:2em;
+    }
+    .weather-grids h4
+    {
+        font-size:0.7em;
+    }
+    .weather-grids h3
+    {
+        font-size:1.1em;
+    }
+    canvas#clear-day
+    {
+        width:55px;
+        height:55px;
+    }
+    .weather-bottom canvas
+    {
+        width:20px;
+        height:20px;
+    }
+    .weather-bottom ul li
+    {
+        width:14.2%;
+        padding:0.5em 0;
+    }
+    .weather-bottom h5
+    {
+        font-size:0.9em;
+    }
+    .weather-bottom h6
+    {
+        font-size:0.8em;
+    }
+    
+}

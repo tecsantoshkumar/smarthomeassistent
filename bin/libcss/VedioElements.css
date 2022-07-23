@@ -1,0 +1,39 @@
+#container {
+	margin: 0px auto;
+	width: 355px;
+	height: 267px;
+	border: 6px #333 solid;
+}
+
+.video {
+	width: 343px;
+	height: 254px;
+	background-color: #666;
+}
+
+#videoElement {
+	width: 343px;
+	height: 254px;
+	background-color: #666;
+}
+
+#videoElement1 {
+	width: 343px;
+	height: 254px;
+	background-color: #666;
+}
+#videoElement2 {
+	width: 343px;
+	height: 254px;
+	background-color: #666;
+}
+#videoElement3 {
+	width: 343px;
+	height: 254px;
+	background-color: #666;
+}
+#videoElement4 {
+	width: 343px;
+	height: 254px;
+	background-color: #666;
+}
